@@ -7,4 +7,10 @@ function bisa($nama) {
     echo "Anda pasti bisa Laravel, $nama!\n";
 }
 
-bisa(namaAnda());
+// bisa(namaAnda());
+
+$nama = function() {
+    return "Rahmat Awaludin";
+};
+
+bisa($nama());
