@@ -1,6 +1,6 @@
 <?php
 function namaAnda() {
-    return "Rahmat Awaludin";
+    return "Budi Gunawan";
 }
 
 function bisa($nama) {
@@ -10,7 +10,7 @@ function bisa($nama) {
 // bisa(namaAnda());
 
 $nama = function() {
-    return "Rahmat Awaludin";
+    return "Budi Gunawan";
 };
 
 bisa($nama());
